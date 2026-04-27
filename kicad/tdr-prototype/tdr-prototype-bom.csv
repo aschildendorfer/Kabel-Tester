@@ -1,0 +1,13 @@
+Item,Reference,Qty,Value,Footprint,Comment
+1,J1,1,BNC Female 50 Ohm,Connector_Coaxial:Conn_BNC_Amphenol_031-5431_Horizontal,BNC Testport
+2,D1,1,ESD5Z5V0,Diode_SMD:D_SOD-523,ESD Schutz am Eingang
+3,R1,1,49.9 Ohm 1%,Resistor_SMD:R_0603_1608Metric,Serienwiderstand Pulsinjektion
+4,R2,1,1 kOhm 1%,Resistor_SMD:R_0603_1608Metric,Abgriff Reflexionssignal
+5,R3,1,200 Ohm 1%,Resistor_SMD:R_0603_1608Metric,Teiler nach GND
+6,R4,1,100 Ohm 1%,Resistor_SMD:R_0603_1608Metric,Komparator-Eingangsschutz
+7,U1,1,LMV7219,Package_TO_SOT_SMD:SOT-23-5,Schneller Komparator
+8,J2,1,PinHeader 1x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,MCU Interface (3V3,GND,PULSE_OUT,COMP_OUT)
+9,SW1,1,SPDT,Button_Switch_SMD:SW_SPDT_PCM12,Abschluss ein/aus
+10,R5,1,49.9 Ohm 1%,Resistor_SMD:R_0603_1608Metric,Optionaler 50-Ohm Abschluss
+11,C1,1,100 nF,Capacitor_SMD:C_0603_1608Metric,Bypass U1
+12,C2,1,1 nF,Capacitor_SMD:C_0603_1608Metric,HF Filter am Comparator Eingang
